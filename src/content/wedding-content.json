@@ -1,0 +1,563 @@
+{
+  "isDemoContent": false,
+  "site": {
+    "defaultLanguage": "hi",
+    "supportedLanguages": ["hi", "en"],
+    "timezone": "Asia/Kolkata"
+  },
+  "couple": {
+    "bride": {
+      "name": {
+        "en": "Apurva Sharma",
+        "hi": "अपूर्वा शर्मा"
+      }
+    },
+    "groom": {
+      "name": {
+        "en": "Anirudh Mittal",
+        "hi": "अनिरुद्ध मित्तल"
+      }
+    },
+    "displayName": {
+      "en": "Apurva & Anirudh",
+      "hi": "अपूर्वा एवं अनिरुद्ध"
+    },
+    "monogram": "AA"
+  },
+  "wedding": {
+    "dateTime": "2026-11-26T18:30:00+05:30",
+    "dateDisplay": {
+      "en": "25-26 November 2026",
+      "hi": "25-26 नवंबर 2026"
+    },
+    "location": {
+      "en": "Corbett Wild Resort, Ramnagar",
+      "hi": "कोर्बेट वाइल्ड रिसॉर्ट, रामनगर"
+    }
+  },
+  "invitation": {
+    "eyebrow": {
+      "en": "WITH LOVE",
+      "hi": "स्नेह सहित"
+    },
+    "message": {
+      "en": "With the blessings of our families, we invite you to join us as we celebrate the beginning of our forever.",
+      "hi": "अपने परिवारों के आशीर्वाद के साथ, हम आपको अपने नए जीवन की इस खूबसूरत शुरुआत का हिस्सा बनने के लिए सादर आमंत्रित करते हैं।"
+    },
+    "blessingsLine": {
+      "en": "Together with our families",
+      "hi": "हमारे परिवारों के आशीर्वाद के साथ"
+    }
+  },
+  "media": {
+    "invitationVideo": {
+      "provider": "google-drive",
+      "shareUrl": null,
+      "src": null,
+      "poster": "/images/invitation/wedding-invitation-poster.webp"
+    }
+  },
+  "navigation": {
+    "home": {
+      "en": "Home",
+      "hi": "मुख्य पृष्ठ"
+    },
+    "celebrations": {
+      "en": "Our Celebrations & Venues",
+      "hi": "हमारे समारोह और स्थल"
+    },
+    "venue": {
+      "en": "Our Celebrations & Venues",
+      "hi": "समारोह और स्थल"
+    },
+    "familyRegistration": {
+      "en": "Family Registration",
+      "hi": "परिवार पंजीकरण"
+    },
+    "sangeet": {
+      "en": "Sangeet Registration",
+      "hi": "संगीत पंजीकरण"
+    },
+    "language": {
+      "en": "Language",
+      "hi": "भाषा"
+    },
+    "menu": {
+      "en": "Open menu",
+      "hi": "मेनू खोलें"
+    },
+    "closeMenu": {
+      "en": "Close menu",
+      "hi": "मेनू बंद करें"
+    }
+  },
+  "actions": {
+    "exploreVenue": {
+      "en": "Explore Venue & Events",
+      "hi": "स्थान और समारोह देखें"
+    },
+    "openRegistration": {
+      "en": "Complete Family Registration",
+      "hi": "परिवार पंजीकरण पूरा करें"
+    },
+    "sangeetUnavailable": {
+      "en": "Sangeet registration will open soon",
+      "hi": "संगीत पंजीकरण शीघ्र खुलेगा"
+    },
+    "viewCelebrations": {
+      "en": "See full schedule",
+      "hi": "पूरा कार्यक्रम देखें"
+    },
+    "playInvitationVideo": {
+      "en": "Play invitation video",
+      "hi": "आमंत्रण वीडियो चलाएँ"
+    }
+  },
+  "labels": {
+    "date": {
+      "en": "Wedding Date",
+      "hi": "विवाह तिथि"
+    },
+    "location": {
+      "en": "Location",
+      "hi": "स्थान"
+    },
+    "countdownHeading": {
+      "en": "Countdown to the Wedding",
+      "hi": "विवाह की उलटी गिनती"
+    },
+    "invitationMessageHeading": {
+      "en": "A Note from Our Families",
+      "hi": "हमारे परिवारों का संदेश"
+    },
+    "eventsHeading": {
+      "en": "Celebrations Ahead",
+      "hi": "आगामी समारोह"
+    },
+    "venueHeading": {
+      "en": "Venue Preview",
+      "hi": "स्थान परिचय"
+    },
+    "byFamilies": {
+      "en": "From both families",
+      "hi": "दोनों परिवारों की ओर से"
+    },
+    "closingMessage": {
+      "en": "Your presence will be the dearest blessing on our special day.",
+      "hi": "आपकी उपस्थिति हमारे इस विशेष दिन का सबसे प्यारा आशीर्वाद होगी।"
+    },
+    "footerBlessing": {
+      "en": "With gratitude and warm regards",
+      "hi": "आभार और स्नेह सहित"
+    },
+    "countdownEnded": {
+      "en": "The wedding day has arrived. We are ready to welcome you.",
+      "hi": "विवाह दिवस आ गया है। हम आपके स्वागत के लिए तैयार हैं।"
+    },
+    "countdownDays": {
+      "en": "Days",
+      "hi": "दिन"
+    },
+    "countdownHours": {
+      "en": "Hours",
+      "hi": "घंटे"
+    },
+    "countdownMinutes": {
+      "en": "Minutes",
+      "hi": "मिनट"
+    },
+    "countdownSeconds": {
+      "en": "Seconds",
+      "hi": "सेकंड"
+    },
+    "videoFallbackTitle": {
+      "en": "Invitation Video",
+      "hi": "आमंत्रण वीडियो"
+    },
+    "videoFallbackText": {
+      "en": "The invitation video is not available right now. Please check back soon.",
+      "hi": "आमंत्रण वीडियो अभी उपलब्ध नहीं है। कृपया कुछ समय बाद पुनः देखें।"
+    },
+    "videoPlay": {
+      "en": "Play Invitation",
+      "hi": "आमंत्रण चलाएँ"
+    },
+    "videoPause": {
+      "en": "Pause",
+      "hi": "रोकें"
+    },
+    "videoResume": {
+      "en": "Resume",
+      "hi": "फिर चलाएँ"
+    },
+    "videoReplay": {
+      "en": "Replay",
+      "hi": "फिर से चलाएँ"
+    },
+    "videoUnavailable": {
+      "en": "The invitation video could not be loaded right now.",
+      "hi": "आमंत्रण वीडियो अभी लोड नहीं हो सका।"
+    },
+    "videoPrivacyNote": {
+      "en": "Invitation video links should be publicly viewable only for guests and never shared with private document folders.",
+      "hi": "आमंत्रण वीडियो लिंक केवल मेहमानों हेतु सार्वजनिक रूप से देखने योग्य रखें और इसे निजी दस्तावेज़ फ़ोल्डरों से अलग रखें।"
+    },
+    "demoIndicator": {
+      "en": "Demo details are active. Replace names, dates, location, and media before production.",
+      "hi": "डेमो विवरण सक्रिय हैं। प्रोडक्शन से पहले नाम, तिथि, स्थान और मीडिया बदलें।"
+    },
+    "venuePageHeading": {
+      "en": "Our Celebrations & Venues",
+      "hi": "हमारे उत्सव और आयोजन"
+    },
+    "venuePageIntro": {
+      "en": "This itinerary shares the wedding schedule, venue details, and guidance for your comfortable arrival.",
+      "hi": "यह पृष्ठ विवाह कार्यक्रम, स्थल विवरण और आपकी सहज यात्रा के लिए आवश्यक जानकारी साझा करता है।"
+    },
+    "scheduleHeading": {
+      "en": "Complete Celebration Itinerary",
+      "hi": "समारोहों का पूर्ण कार्यक्रम"
+    },
+    "eventLabelPrefix": {
+      "en": "Event",
+      "hi": "आयोजन"
+    },
+    "startsAt": {
+      "en": "Starts",
+      "hi": "आरंभ"
+    },
+    "endsAt": {
+      "en": "Ends",
+      "hi": "समाप्त"
+    },
+    "eventDatePending": {
+      "en": "Date and time will be announced soon.",
+      "hi": "तिथि और समय शीघ्र घोषित किए जाएंगे।"
+    },
+    "venueAddress": {
+      "en": "Address",
+      "hi": "पता"
+    },
+    "venueDescription": {
+      "en": "Venue Details",
+      "hi": "स्थल विवरण"
+    },
+    "venueMapHeading": {
+      "en": "Venue Map",
+      "hi": "स्थल मानचित्र"
+    },
+    "mapPlaceholderHeading": {
+      "en": "Map link will be added soon",
+      "hi": "मानचित्र लिंक शीघ्र जोड़ा जाएगा"
+    },
+    "mapPlaceholderBody": {
+      "en": "The host family will share a confirmed map embed once the final venue pin is validated.",
+      "hi": "अंतिम स्थान पुष्टि के बाद होस्ट परिवार Google Maps एम्बेड साझा करेगा।"
+    },
+    "directions": {
+      "en": "Get Directions",
+      "hi": "दिशा-निर्देश प्राप्त करें"
+    },
+    "eventVenue": {
+      "en": "Venue",
+      "hi": "स्थल"
+    },
+    "dressCode": {
+      "en": "Dress Code",
+      "hi": "परिधान"
+    },
+    "timezoneLabel": {
+      "en": "Timezone",
+      "hi": "समय क्षेत्र"
+    },
+    "guestInfoHeading": {
+      "en": "Practical Guest Information",
+      "hi": "अतिथि मार्गदर्शन"
+    },
+    "arrivalGuidance": {
+      "en": "Arrival Guidance",
+      "hi": "आगमन मार्गदर्शन"
+    },
+    "parkingInfo": {
+      "en": "Parking",
+      "hi": "पार्किंग"
+    },
+    "accommodationInfo": {
+      "en": "Accommodation",
+      "hi": "आवास"
+    },
+    "transportInfo": {
+      "en": "Nearby Transport",
+      "hi": "निकट परिवहन"
+    },
+    "assistanceContact": {
+      "en": "Event Assistance",
+      "hi": "सहायता संपर्क"
+    }
+  },
+  "venues": [
+    {
+      "id": "heritage-courtyard",
+      "name": {
+        "en": "Corbett Wild Resorts & Spa",
+        "hi": "Corbett Wild Resorts & Spa"
+      },
+      "city": {
+        "en": "Uttarakhand",
+        "hi": "उत्तराखंड"
+      },
+      "shortAddress": {
+        "en": "Jim Corbett National Park, Ranikhet Road, Dhikuli, Ramnagar, Uttarakhand",
+        "hi": "जिम कार्बेट नेशनल पार्क, रानीखेत रोड, धिकुली, रामनगर, उत्तराखंड"
+      },
+      "fullAddress": {
+        "en": "Jim Corbett National Park, Ranikhet Road, Dhikuli, Ramnagar, Uttarakhand 244715",
+        "hi": "जिम कार्बेट नेशनल पार्क, रानीखेत रोड, धिकुली, रामनगर, उत्तराखंड 244715"
+      },
+      "description": {
+        "en": "A scenic jungle resort setting for the wedding celebrations from 25–26 November 2026.",
+        "hi": "25–26 नवंबर 2026 को आयोजित शादी समारोहों के लिए एक सुंदर जंगल रिसॉर्ट स्थल।"
+      },
+      "heroImage": {
+        "src": "https://www.corbettwild.com/img/home-slider/slider-1.jpg",
+        "alt": {
+          "en": "Corbett Wild Resorts & Spa entrance and property view",
+          "hi": "कॉर्बेट वाइल्ड रिज़ॉर्ट्स एंड स्पा का मुख्य दृश्य"
+        }
+      },
+      "gallery": [
+        {
+          "src": "https://www.corbettwild.com/img/home-slider/slider-1.jpg",
+          "alt": {
+            "en": "Corbett Wild Resorts & Spa exterior view",
+            "hi": "कॉर्बेट वाइल्ड रिज़ॉर्ट्स एंड स्पा का बाहरी दृश्य"
+          }
+        },
+        {
+          "src": "https://www.corbettwild.com/img/home-slider/slider-2.jpg",
+          "alt": {
+            "en": "Corbett Wild Resorts & Spa landscaped area",
+            "hi": "कॉर्बेट वाइल्ड रिज़ॉर्ट्स एंड स्पा का लैंडस्केप दृश्य"
+          }
+        }
+      ],
+      "googleMapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d544192.3151430284!2d78.60634637716997!3d29.14435281830647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a1351c39b7bad%3A0x82446c8e7b381c2e!2sCorbett%20Wild%20Resorts%20%26%20Spa!5e1!3m2!1sen!2sin!4v1793555280064!5m2!1sen!2sin",
+      "googleMapsDirectionsUrl": "https://www.google.com/maps/dir//Corbett+Wild+Resorts+%26+Spa,+Jim+Corbett+National+Park,+Ranikhet+Road,+Dhikuli,+Ramnagar,+Uttarakhand+244715/@29.457295,79.14382,427074m/data=!3m1!1e3!4m19!1m10!3m9!1s0x390a1351c39b7bad:0x82446c8e7b381c2e!2sCorbett+Wild+Resorts+%26+Spa!5m2!4m1!1i2!8m2!3d29.4572949!4d79.14382!16s%2Fg%2F11mw70qf9f!4m7!1m0!1m5!1m1!1s0x390a1351c39b7bad:0x82446c8e7b381c2e!2m2!1d79.14382!2d29.4572949?hl=en&entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+      "arrivalGuidance": {
+        "en": "Please plan to arrive 30 minutes before each ceremony for comfortable seating and welcome assistance.",
+        "hi": "सुव्यवस्थित स्वागत और बैठने की व्यवस्था के लिए कृपया प्रत्येक समारोह से 30 मिनट पहले पहुँचें।"
+      },
+      "parkingInfo": {
+        "en": "Parking is available at the resort for guests attending the celebrations.",
+        "hi": "समारोहों में भाग लेने वाले मेहमानों के लिए रिसॉर्ट में पार्किंग उपलब्ध है।"
+      },
+      "accommodationInfo": {
+        "en": "Guests are encouraged to stay near Ramnagar or at the resort, depending on availability.",
+        "hi": "मेहमानों को उपलब्धता के अनुसार रामनगर या रिसॉर्ट के पास रुकने की सलाह दी जाती है।"
+      },
+      "transportInfo": {
+        "en": "Local transport and pickup guidance will be shared in advance for guests travelling from nearby cities.",
+        "hi": "पास के शहरों से आने वाले मेहमानों के लिए स्थानीय परिवहन और पिकअप मार्गदर्शन अग्रिम रूप से साझा किया जाएगा।"
+      },
+      "assistanceContact": null
+    },
+    {
+      "id": "white-house",
+      "name": {
+        "en": "White House",
+        "hi": "व्हाइट हाउस"
+      },
+      "city": {
+        "en": "Moradabad",
+        "hi": "मुरादाबाद"
+      },
+      "shortAddress": {
+        "en": "Sector 6A, Buddhi Vihar Phase 2, Moradabad, Uttar Pradesh",
+        "hi": "सेक्टर 6ए, बुद्धि विहार फेज 2, मुरादाबाद, उत्तर प्रदेश"
+      },
+      "fullAddress": {
+        "en": "Sector 6A, Buddhi Vihar Phase 2, Moradabad, Uttar Pradesh 244103",
+        "hi": "सेक्टर 6ए, बुद्धि विहार फेज 2, मुरादाबाद, उत्तर प्रदेश 244103"
+      },
+      "description": {
+        "en": "The venue for the reception celebration on 28 November 2026.",
+        "hi": "28 नवंबर 2026 को रिसेप्शन समारोह का स्थल।"
+      },
+      "heroImage": null,
+      "gallery": [],
+      "googleMapsEmbedUrl": null,
+      "googleMapsDirectionsUrl": null,
+      "arrivalGuidance": null,
+      "parkingInfo": null,
+      "accommodationInfo": null,
+      "transportInfo": null,
+      "assistanceContact": null
+    }
+  ],
+  "mainVenueId": "heritage-courtyard",
+  "events": [
+    {
+      "id": "mehendi",
+      "type": "mehendi",
+      "enabled": false,
+      "sequence": 1,
+      "title": {
+        "en": "Mehendi",
+        "hi": "मेहंदी समारोह"
+      },
+      "summary": {
+        "en": "An evening of floral henna, songs, and laughter with our closest loved ones.",
+        "hi": "फूलों की मेंहदी, गीतों और हँसी से भरी एक मधुर पारिवारिक शाम।"
+      },
+      "startDateTimeIso": null,
+      "endDateTimeIso": null,
+      "timeZone": "Asia/Kolkata",
+      "venueId": "heritage-courtyard",
+      "image": null,
+      "dressCode": null,
+      "directionsUrl": null,
+      "visual": {
+        "theme": "botanical-green",
+        "motif": "henna",
+        "layout": "editorial"
+      }
+    },
+    {
+      "id": "haldi",
+      "type": "haldi",
+      "enabled": true,
+      "sequence": 2,
+      "title": {
+        "en": "Haldi",
+        "hi": "हल्दी रस्म"
+      },
+      "summary": {
+        "en": "A bright daytime celebration with family blessings and joyful rituals.",
+        "hi": "परिवार के आशीर्वाद और आनंदमय रस्मों के साथ सुनहरी सुबह का उत्सव।"
+      },
+      "startDateTimeIso": "2026-11-25T10:00:00+05:30",
+      "endDateTimeIso": null,
+      "timeZone": "Asia/Kolkata",
+      "venueId": "heritage-courtyard",
+      "image": null,
+      "dressCode": null,
+      "directionsUrl": null,
+      "visual": {
+        "theme": "marigold-yellow",
+        "motif": "marigold",
+        "layout": "split"
+      }
+    },
+    {
+      "id": "engagement",
+      "type": "engagement",
+      "enabled": true,
+      "sequence": 3,
+      "title": {
+        "en": "Engagement",
+        "hi": "सगाई"
+      },
+      "summary": {
+        "en": "A beautiful promise of togetherness.",
+        "hi": "साथ निभाने के खूबसूरत वादे का उत्सव।"
+      },
+      "startDateTimeIso": "2026-11-25T14:00:00+05:30",
+      "endDateTimeIso": null,
+      "timeZone": "Asia/Kolkata",
+      "venueId": "heritage-courtyard",
+      "image": null,
+      "dressCode": null,
+      "directionsUrl": null,
+      "visual": {
+        "theme": "champagne-blush",
+        "motif": "rings",
+        "layout": "minimal"
+      }
+    },
+    {
+      "id": "sangeet",
+      "type": "sangeet",
+      "enabled": true,
+      "sequence": 4,
+      "title": {
+        "en": "Sangeet",
+        "hi": "संगीत संध्या"
+      },
+      "summary": {
+        "en": "Music, dance, and family performances in a festive evening celebration.",
+        "hi": "संगीत, नृत्य और पारिवारिक प्रस्तुतियों से सजी उत्सवपूर्ण शाम।"
+      },
+      "startDateTimeIso": "2026-11-25T19:00:00+05:30",
+      "endDateTimeIso": null,
+      "timeZone": "Asia/Kolkata",
+      "venueId": "heritage-courtyard",
+      "image": null,
+      "dressCode": null,
+      "directionsUrl": null,
+      "visual": {
+        "theme": "emerald-midnight",
+        "motif": "music",
+        "layout": "highlight"
+      }
+    },
+    {
+      "id": "wedding",
+      "type": "wedding",
+      "enabled": true,
+      "sequence": 5,
+      "title": {
+        "en": "Wedding Ceremony",
+        "hi": "विवाह समारोह"
+      },
+      "summary": {
+        "en": "The sacred vows and wedding rituals as we begin our forever.",
+        "hi": "पवित्र वचनों और विवाह रस्मों के साथ हमारे नए जीवन की शुरुआत।"
+      },
+      "startDateTimeIso": "2026-11-26T18:30:00+05:30",
+      "endDateTimeIso": null,
+      "timeZone": "Asia/Kolkata",
+      "venueId": "heritage-courtyard",
+      "image": null,
+      "dressCode": null,
+      "directionsUrl": null,
+      "visual": {
+        "theme": "ivory-sindoor",
+        "motif": "varmala-mandap",
+        "layout": "featured"
+      }
+    },
+    {
+      "id": "reception",
+      "type": "reception",
+      "enabled": true,
+      "sequence": 6,
+      "title": {
+        "en": "Reception",
+        "hi": "रिसेप्शन संध्या"
+      },
+      "summary": {
+        "en": "An elegant evening to celebrate with friends and extended family.",
+        "hi": "मित्रों और संबंधियों के साथ मिलकर मनाने के लिए एक सुसज्जित शाम।"
+      },
+      "startDateTimeIso": "2026-11-28T19:00:00+05:30",
+      "endDateTimeIso": null,
+      "timeZone": "Asia/Kolkata",
+      "venueId": "white-house",
+      "image": null,
+      "dressCode": null,
+      "directionsUrl": null,
+      "visual": {
+        "theme": "champagne-plum",
+        "motif": "evening-lights",
+        "layout": "timeline"
+      }
+    }
+  ],
+  "routes": {
+    "home": "/",
+    "venueEvents": "/venue",
+    "familyRegistration": "/register",
+    "sangeetPerformance": "/sangeet/register",
+    "legacyVenueEvents": "/venue-events"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "09392336-5bda-422c-a7fb-643829ecf86a",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.google_integrations": {
+      "name": "google_integrations",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "provider": {
+          "name": "provider",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'google'"
+        },
+        "google_email": {
+          "name": "google_email",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "google_sub": {
+          "name": "google_sub",
+          "type": "varchar(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "encrypted_refresh_token": {
+          "name": "encrypted_refresh_token",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "encryption_nonce": {
+          "name": "encryption_nonce",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "encryption_tag": {
+          "name": "encryption_tag",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "drive_root_folder_id": {
+          "name": "drive_root_folder_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "groom_folder_id": {
+          "name": "groom_folder_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bride_folder_id": {
+          "name": "bride_folder_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sangeet_folder_id": {
+          "name": "sangeet_folder_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "spreadsheet_id": {
+          "name": "spreadsheet_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "status": {
+          "name": "status",
+          "type": "google_integration_status",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'INITIALIZATION_PENDING'"
+        },
+        "connected_at": {
+          "name": "connected_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "google_integrations_provider_unique": {
+          "name": "google_integrations_provider_unique",
+          "columns": [
+            {
+              "expression": "provider",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        },
+        "google_integrations_google_sub_unique": {
+          "name": "google_integrations_google_sub_unique",
+          "columns": [
+            {
+              "expression": "google_sub",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": true,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {
+    "public.google_integration_status": {
+      "name": "google_integration_status",
+      "schema": "public",
+      "values": [
+        "CONNECTED",
+        "DISCONNECTED",
+        "RECONNECT_REQUIRED",
+        "INITIALIZATION_PENDING",
+        "INITIALIZATION_FAILED"
+      ]
+    }
+  },
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
